@@ -4,7 +4,7 @@ Frame: lista de candidatos con tarjetas (imagen 30% / texto 70%).
 Carga de imágenes (URL o archivo local). Enviar voto -> registra bloque en blockchain.
 """
 import tkinter as tk
-from ttkbootstrap import ttk
+import ttkbootstrap as ttk
 from tkinter import messagebox, filedialog
 from PIL import Image, ImageTk
 import io

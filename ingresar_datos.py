@@ -4,7 +4,7 @@ Frame: ingresar datos del estudiante
 Se usa dentro del App principal (mismo root).
 """
 import tkinter as tk
-from ttkbootstrap import ttk
+import ttkbootstrap as ttk
 from tkinter import messagebox
 
 class IngresarDatosFrame(ttk.Frame):

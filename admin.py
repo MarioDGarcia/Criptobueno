@@ -4,7 +4,7 @@ Frame: panel administrativo integrado.
 Permite ver chain.json, verificar integridad, corromper bloques y exportar.
 """
 import tkinter as tk
-from ttkbootstrap import ttk
+import ttkbootstrap as ttk
 from tkinter import messagebox, filedialog
 from tkinter.scrolledtext import ScrolledText
 from datetime import datetime
